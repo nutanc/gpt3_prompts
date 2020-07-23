@@ -1,0 +1,20 @@
+We have an users table with columns name,age, and salary. 
+Q: How many users are there? 
+A: select count(*) from users 
+
+Q: Give me details about satish? 
+A: select * from users where name="satish" 
+
+Q: What is the age of satish? 
+A: select age from users where name="satish" 
+
+Q: What is the salary of satish? 
+A: select salary from users where name="satish" 
+
+Q: Who has the highest salary 
+A: select * from users where salary>max(salary) 
+
+Q: who are the top users by salary and how much do they earn 
+A: select * from users order by salary desc limit 10 
+
+Q:
