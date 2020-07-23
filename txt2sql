@@ -1,4 +1,4 @@
-We have an users table with columns name,age, and salary. 
+We have an users table with columns name,age, and salary. We also have a subject marks table with columns userid, subject, marks.
 Q: How many users are there? 
 A: select count(*) from users 
 
